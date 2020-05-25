@@ -32,7 +32,7 @@ export class List extends PureComponent<IListProps> {
     return (
       <div className="list">
         {noCells ? (
-          <div className="list_empty">Пока ячеек нет</div>
+          <div className="listEmpty">Пока ячеек нет</div>
         ) : (
           <ol>
             {cells.map((cell: INotebookCell) => {
@@ -46,7 +46,7 @@ export class List extends PureComponent<IListProps> {
                   onMouseLeave={this.handleOnMouseLeave(cell.cellRef)}
                   onMouseEnter={this.handleOnMouseEnter(cell.cellRef)}
                 >
-                  <div className="list_text">
+                  <div className="listText">
                     {cell.text.slice(0, 150)}
                     {cell.text.length > 150 ? '...' : ''}
                   </div>

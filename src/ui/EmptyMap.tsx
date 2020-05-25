@@ -30,8 +30,8 @@ export class EmptyMapComp extends PureComponent<IEmptyMapProps> {
   render(): ReactElement {
     return (
       <div className="emptymap" onClick={this.handleClick}>
-        <div className="emptymap_text">Создать карту</div>
-        <div className="emptymap_img" />
+        <div className="emptymapText">Создать карту</div>
+        <div className="emptymapImg" />
       </div>
     );
   }

@@ -26,7 +26,7 @@ enum CommandIDs {
  * @param restorer - application layout restorer
  * @param notebookTracker - notebook tracker
  * @param rendermime - rendered MIME registry
- * @returns table of contents registry
+ * @returns mind map widget
  */
 function activateMindMap(
   app: JupyterFrontEnd,

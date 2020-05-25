@@ -57,8 +57,8 @@ export class Dropdown extends PureComponent<IDropdownProps> {
     return (
       <div
         className={classNames({
-          dropdown_item: true,
-          dropdown_empty: true
+          dropdownItem: true,
+          dropdownEmpty: true
         })}
       >
         Нет ячеек
@@ -79,36 +79,36 @@ export class Dropdown extends PureComponent<IDropdownProps> {
           switch (item.type) {
             case 'code':
               icon = (
-                <div className="dropdown_itemIcon">
-                  <div className="icon_code" />
+                <div className="dropdownItemIcon">
+                  <div className="iconCode" />
                 </div>
               );
               break;
             case 'markdown':
               icon = (
-                <div className="dropdown_itemIcon">
-                  <div className="icon_m" />
+                <div className="dropdownItemIcon">
+                  <div className="iconM" />
                 </div>
               );
               break;
             default:
               icon = (
-                <div className="dropdown_itemIcon">
-                  <div className="icon_par" />
+                <div className="dropdownItemIcon">
+                  <div className="iconPar" />
                 </div>
               );
           }
 
           return (
             <div
-              className="dropdown_item"
+              className="dropdownItem"
               key={item.id}
               onClick={this.handleOnItemClick(item.id, item.cellRef)}
               onMouseEnter={this.handleOnMouseEnter(item.cellRef)}
               onMouseLeave={this.handleOnMouseLeave(item.cellRef)}
             >
               {icon}
-              <div className="dropdown_itemText">{item.text}</div>
+              <div className="dropdownItemText">{item.text}</div>
             </div>
           );
         })}
@@ -138,7 +138,7 @@ export class Dropdown extends PureComponent<IDropdownProps> {
   render() {
     const { list } = this.props;
     return (
-      <div className="dropdown_list" ref={this.rootRef}>
+      <div className="dropdownList" ref={this.rootRef}>
         {(!list || list.length === 0 || (list.length === 1 && !list[0].text)) &&
           this.renderEmptyList()}
         {this.renderList()}

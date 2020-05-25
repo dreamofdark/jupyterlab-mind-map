@@ -30,8 +30,8 @@ export class Switch extends PureComponent<ISwitchProps> {
       <div className="switch">
         <div
           className={classNames({
-            switch_tab: true,
-            switch_tabActive: tab === ISwitchType.list
+            switchTab: true,
+            switchTabActive: tab === ISwitchType.list
           })}
           onClick={this.handleOnClick(ISwitchType.list)}
         >
@@ -39,8 +39,8 @@ export class Switch extends PureComponent<ISwitchProps> {
         </div>
         <div
           className={classNames({
-            switch_tab: true,
-            switch_tabActive: tab === ISwitchType.map
+            switchTab: true,
+            switchTabActive: tab === ISwitchType.map
           })}
           onClick={this.handleOnClick(ISwitchType.map)}
         >

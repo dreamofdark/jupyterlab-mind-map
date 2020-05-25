@@ -12,32 +12,32 @@ export interface IToolbarItem {
 const toolbarItems: IToolbarItem[] = [
   {
     text: 'Добавить узел',
-    icon: <div className="icon_plus" />,
+    icon: <div className="iconPlus" />,
     id: 'add'
   },
   // {
   //   text: 'Add image',
-  //   icon: <div className="icon_image" />,
+  //   icon: <div className="iconImage" />,
   //   id: 'addImage'
   // },
   {
     text: 'Удалить узел',
-    icon: <div className="icon_trash" />,
+    icon: <div className="iconTrash" />,
     id: 'delete'
   },
   {
     text: 'Добавить ссылку',
-    icon: <div className="icon_link" />,
+    icon: <div className="iconLink" />,
     id: 'addCell'
   },
   {
     text: 'Удалить ссылку',
-    icon: <div className="icon_unlink" />,
+    icon: <div className="iconUnlink" />,
     id: 'deleteCell'
   },
   {
     text: 'Скачать',
-    icon: <div className="icon_download" />,
+    icon: <div className="iconDownload" />,
     id: 'download'
   }
 ];

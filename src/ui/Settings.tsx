@@ -38,41 +38,41 @@ export class Settings extends PureComponent<ISettingsProps> {
   render() {
     const { zoomInEnable, zoomOutEnable } = this.props;
     return (
-      <div className="settings_block">
+      <div className="settingsBlock">
         <div
           className={classNames({
-            settings_button: true,
-            settings_buttonRed: true
+            settingsButton: true,
+            settingsButtonRed: true
           })}
           title="Сохранить"
           onClick={this.handleSave}
         >
-          <div className="settings_buttonIcon">
-            <div className="icon_save" />
+          <div className="settingsButtonIcon">
+            <div className="iconSave" />
           </div>
         </div>
         <div
           className={classNames({
-            settings_button: true,
-            settings_buttonDisable: !zoomInEnable
+            settingsButton: true,
+            settingsButtonDisable: !zoomInEnable
           })}
           title="Приблизить"
           onClick={this.handleZoomIn}
         >
-          <div className="settings_buttonIcon">
-            <div className="icon_zoom" />
+          <div className="settingsButtonIcon">
+            <div className="iconZoom" />
           </div>
         </div>
         <div
           className={classNames({
-            settings_button: true,
-            settings_buttonDisable: !zoomOutEnable
+            settingsButton: true,
+            settingsButtonDisable: !zoomOutEnable
           })}
           title="Отдалить"
           onClick={this.handleZoomOut}
         >
-          <div className="settings_buttonIcon">
-            <div className="icon_minus" />
+          <div className="settingsButtonIcon">
+            <div className="iconMinus" />
           </div>
         </div>
       </div>

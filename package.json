@@ -1,6 +1,6 @@
 {
   "name": "@dreamofdark/jupyterlab-mind-map",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "mind-map for storybook",
   "keywords": [
     "jupyter",
@@ -38,8 +38,6 @@
     "@jupyterlab/cells": "^2.1.2",
     "@jupyterlab/coreutils": "^4.1.0",
     "@jupyterlab/docmanager": "^2.1.2",
-    "@jupyterlab/docregistry": "^2.1.2",
-    "@jupyterlab/fileeditor": "^2.1.2",
     "@jupyterlab/notebook": "^2.1.0",
     "@jupyterlab/rendermime": "^2.1.0",
     "@lumino/coreutils": "^1.4.2",

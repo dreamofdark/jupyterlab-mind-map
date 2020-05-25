@@ -146,7 +146,7 @@ class AppComponent extends PureComponent<IAppProps> {
 
     return (
       <div className="app">
-        <div className="app_headerBlock">
+        <div className="appHeaderBlock">
           <Header title={title} />
           <Switch
             tab={isList ? ISwitchType.list : ISwitchType.map}
@@ -157,7 +157,7 @@ class AppComponent extends PureComponent<IAppProps> {
           {isList ? (
             <List cells={cells} />
           ) : (
-            <div className="map_block" ref={this.rootRef}>
+            <div className="mapBlock" ref={this.rootRef}>
               {(!items || isEmpty(items)) && (
                 <EmptyMap path={path} onClick={onCreate} />
               )}
@@ -167,7 +167,7 @@ class AppComponent extends PureComponent<IAppProps> {
             </div>
           )}
         </div>
-        <div className="app_created">Created by Kazantseva Ksenia</div>
+        <div className="appCreated">Created by Kazantseva Ksenia</div>
       </div>
     );
   }

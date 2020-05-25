@@ -57,23 +57,23 @@ export class ToolbarItem extends PureComponent<
     return (
       <div
         className={classNames({
-          toolbar_item: true,
-          toolbar_itemActive: isOpen,
-          toolbar_itemDisable: disable
+          toolbarItem: true,
+          toolbarItemActive: isOpen,
+          toolbarItemDisable: disable
         })}
         title={text}
         onClick={this.handleOnItemClick}
         ref={this.rootRef}
       >
         {icon ? (
-          <div className="toolbar_itemIcon">{icon}</div>
+          <div className="toolbarItemIcon">{icon}</div>
         ) : (
-          <div className="toolbar_itemText">{text}</div>
+          <div className="toolbarItemText">{text}</div>
         )}
         {list && (
           <Fragment>
-            <div className="toolbar_dropdownIcon">
-              <div className="icon_down" />
+            <div className="toolbarDropdownIcon">
+              <div className="iconDown" />
               {isOpen && (
                 <Dropdown
                   parentRef={this.rootRef}

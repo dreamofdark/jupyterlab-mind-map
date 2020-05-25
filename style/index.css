@@ -24,11 +24,11 @@
 	height: calc(100% - 50px);
 }
 
-.app_headerBlock {
+.appHeaderBlock {
 	width: 100%;
 }
 
-.app_created {
+.appCreated {
 	position: absolute;
 	bottom: 2px;
 	right: 5px;
@@ -45,7 +45,7 @@
 	box-sizing: border-box;
 }
 
-.list_empty {
+.listEmpty {
 	width: 100%;
 	height: 160px;
 	display: flex;
@@ -55,13 +55,13 @@
 	color: #9c9c9c;
 }
 
-.list_text {
+.listText {
 	padding: 7px 5px;
 	max-width: 530px;
 	word-break: break-all;
 }
 
-.list_text:hover {
+.lisText:hover {
 	background-color: #f5f6f7;
 	border-radius: 8px;
 }
@@ -72,7 +72,7 @@
 	margin: 20px 10px 10px 10px;
 }
 
-.icon_unlink {
+.iconUnlink {
 	width: 16px;
 	height: 16px;
 	background-image: url(./img/unlink-solid.svg);
@@ -81,7 +81,7 @@
 	background-position: center;
 }
 
-.icon_trash {
+.iconTrash {
 	width: 16px;
 	height: 16px;
 	background-image: url(./img/trash-solid.svg);
@@ -90,7 +90,7 @@
 	background-position: center;
 }
 
-.icon_plus {
+.iconPlus {
 	width: 16px;
 	height: 16px;
 	background-image: url(./img/plus-solid.svg);
@@ -99,7 +99,7 @@
 	background-position: center;
 }
 
-.icon_par {
+.iconPar {
 	width: 16px;
 	height: 16px;
 	background-image: url(./img/paragraph-solid.svg);
@@ -108,7 +108,7 @@
 	background-position: center;
 }
 
-.icon_link {
+.iconLink {
 	width: 16px;
 	height: 16px;
 	background-image: url(./img/link-solid.svg);
@@ -117,7 +117,7 @@
 	background-position: center;
 }
 
-.icon_image {
+.iconImage {
 	width: 16px;
 	height: 16px;
 	background-image: url(./img/image-regular.svg);
@@ -126,7 +126,7 @@
 	background-position: center;
 }
 
-.icon_download {
+.iconDownload {
 	width: 16px;
 	height: 16px;
 	background-image: url(./img/download-solid.svg);
@@ -135,7 +135,7 @@
 	background-position: center;
 }
 
-.icon_code {
+.iconCode {
 	width: 16px;
 	height: 16px;
 	background-image: url(./img/code-solid.svg);
@@ -144,7 +144,7 @@
 	background-position: center;
 }
 
-.icon_m {
+.iconM {
 	width: 16px;
 	height: 16px;
 	background-image: url(./img/medium.svg);
@@ -153,7 +153,7 @@
 	background-position: center;
 }
 
-.icon_down {
+.iconDown {
 	width: 16px;
 	height: 16px;
 	background-image: url(./img/caret-down-solid.svg);
@@ -162,7 +162,7 @@
 	background-position: center;
 }
 
-.icon_zoom {
+.iconZoom {
 	 width: 12px;
 	 height: 12px;
 	 background-image: url(./img/zoom-solid.svg);
@@ -171,7 +171,7 @@
 	 background-position: center;
  }
 
-.icon_save {
+.iconSave {
 	width: 12px;
 	height: 12px;
 	background-image: url(./img/save-regular.svg);
@@ -180,7 +180,7 @@
 	background-position: center;
 }
 
-.icon_minus {
+.iconMinus {
 	width: 12px;
 	height: 12px;
 	background-image: url(./img/minus-solid.svg);
@@ -189,7 +189,7 @@
 	background-position: center;
 }
 
-.map_block {
+.mapBlock {
 	margin: 10px;
 	display: flex;
 	flex-direction: column;
@@ -206,7 +206,7 @@
 	margin: 20px;
 }
 
-.switch_tab {
+.switchTab {
 	box-sizing: border-box;
 	border-bottom: 2px solid #e3e3e3;
 	padding: 5px 15px;
@@ -215,17 +215,17 @@
 	white-space: nowrap;
 }
 
-.switch_tab:hover {
+.switchTab:hover {
 	border-bottom: 2px solid #82b7f5;
 }
 
-.switch_tabActive {
+.switchTabActive {
 	font-weight: bold;
 	border-bottom: 2px solid #458bde;
 	color: #458bde;
 }
 
-.switch_tabActive:hover {
+.switchTabActive:hover {
 	border-bottom: 2px solid #458bde;
 	color: #458bde;
 }
@@ -248,7 +248,7 @@
 	background-color: #eaebef;
 }
 
-.emptymap_img {
+.emptymapImg {
 	width: 50px;
 	height: 50px;
 	background-image: url(./img/map.png);
@@ -257,12 +257,12 @@
 	background-position: center;
 }
 
-.emptymap_text {
+.emptymapText {
 	margin-bottom: 10px;
 	text-align: center;
 }
 
-.dropdown_list {
+.dropdownList {
 	position: absolute;
 	box-shadow: 0 24px 80px rgba(0, 0, 0, 0.24);
 	border-radius: 12px;
@@ -277,7 +277,7 @@
 	max-height: 335px;
 }
 
-.dropdown_item {
+.dropdownItem {
 	font-size: 13px;
 	line-height: 20px;
 	color: #333;
@@ -288,28 +288,28 @@
 	position: relative;
 }
 
-.dropdown_item:hover {
+.dropdownItem:hover {
 	background-color: rgba(0, 16, 61, 0.04);
 }
 
-.dropdown_empty {
+.dropdownEmpty {
 	color: #6b6969;
 	padding: 10px 10px;
 	cursor: default;
 }
 
-.dropdown_empty:hover {
+.dropdownEmpty:hover {
 	background-color: #fff;
 }
 
-.dropdown_itemIcon {
+.dropdownItemIcon {
 	width: 16px;
 	height: 16px;
 	line-height: 0;
 	margin-right: 11px;
 }
 
-.dropdown_itemText {
+.dropdownItemText {
 	text-overflow: ellipsis;
 	width: 135px;
 	white-space: nowrap;
@@ -330,7 +330,7 @@
 	border: 2px solid rgba(222, 222, 222, 0.4);
 }
 
-.toolbar_item {
+.toolbarItem {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -347,48 +347,48 @@
 	margin-right: 5px;
 }
 
-.toolbar_item:hover {
+.toolbarItem:hover {
 	background-color: #eaebef;
 }
 
-.toolbar_itemIcon {
+.toolbarItemIcon {
 	margin-top: 2px;
 }
 
-.toolbar_itemText {
+.toolbarItemText {
 	font-size: 13px;
 	color: #333;
 }
 
-.toolbar_itemDisable {
+.toolbarItemDisable {
 	opacity: 0.50;
 	cursor: default;
 }
 
-.toolbar_itemDisable:hover {
+.toolbarItemDisable:hover {
 	background-color: #f5f6f7;
 	opacity: 0.50;
 }
 
-.toolbar_itemActive {
+.toolbarItemActive {
 	background-color: #eaebef;
 }
 
-.toolbar_dropdownIcon {
+.toolbarDropdownIcon {
 	margin-left: 5px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
-.settings_block {
+.settingsBlock {
 	display: flex;
 	flex-direction: column;
 	flex-basis: 24px;
 	flex-shrink: 0;
 }
 
-.settings_button {
+.settingsButton {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -401,33 +401,33 @@
 	border-radius: 4px;
 }
 
-.settings_button:hover {
+.settingsButton:hover {
 	background-color: #eaebef;
 }
 
-.settings_buttonRed {
+.settingsButtonRed {
 	background-color: #ff5c66;
 }
 
-.settings_buttonRed:hover {
+.settingsButtonRed:hover {
 	background-color: #fc2c38;
 }
 
-.settings_buttonDisable {
+.settingsButtonDisable {
 	opacity: 0.50;
 	cursor: default;
 }
 
-.settings_buttonDisable:hover {
+.settingsButtonDisable:hover {
 	background-color: #f5f6f7;
 	opacity: 0.50;
 }
 
-.settings_buttonIcon {
+.settingsButtonIcon {
 	margin-top: 2px;
 }
 
-.mindmap_root {
+.mindmapRoot {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -437,7 +437,7 @@
 	height: 550px;
 }
 
-.mindmap_settings {
+.mindmapSettings {
 	width: 100%;
 	display: flex;
 	flex-direction: row;
@@ -445,7 +445,7 @@
 	align-items: flex-start;
 }
 
-.mindmap_container {
+.mindmapContainer {
 	flex-grow: 1;
 	overflow-x: scroll;
 	overflow-y: scroll;

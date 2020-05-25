@@ -93,7 +93,6 @@ export class MindMapComp extends PureComponent<IMindMapProps, IMindMapState> {
 
   componentDidUpdate(prevProps: IMindMapProps, prevState: IMindMapState): void {
     if (!eqProps('data', this.props.allData, prevProps.allData)) {
-      console.log('COMPONENT DID UPDATE');
       this.state.jm.show(this.props.allData);
       this.setState({ selectedNode: null });
     }
@@ -202,7 +201,7 @@ export class MindMapComp extends PureComponent<IMindMapProps, IMindMapState> {
     const { selectedNode, zoomIn, zoomOut } = this.state;
 
     return (
-      <div className="mindmap_root">
+      <div className="mindmapRoot">
         <Toolbar
           isRoot={selectedNode && selectedNode.id === 'root'}
           isEnabled={selectedNode}
@@ -213,11 +212,11 @@ export class MindMapComp extends PureComponent<IMindMapProps, IMindMapState> {
           onDownload={this.handleOnDownload}
           cells={this.props.cells}
         />
-        <div className="mindmap_settings">
+        <div className="mindmapSettings">
           <div
             ref={this.root}
             onClick={this.handleOnClick}
-            className="mindmap_container"
+            className="mindmapContainer"
             onBlur={this.handleOnBlur}
           />
           <Settings

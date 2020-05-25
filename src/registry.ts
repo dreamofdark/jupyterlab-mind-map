@@ -2,9 +2,9 @@ import { IWidgetTracker } from '@jupyterlab/apputils';
 import { Token } from '@lumino/coreutils';
 import { Widget } from '@lumino/widgets';
 
+/* tslint:disable */
 export interface IMinMapRegistry extends MindMapRegistry {}
 
-/* tslint:disable */
 export const IMinMapRegistry = new Token<MindMapRegistry>(
   'jupyterlab_extension/mindmapcreator:IMinMapRegistry'
 );

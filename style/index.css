@@ -58,6 +58,7 @@
 .list_text {
 	padding: 7px 5px;
 	max-width: 530px;
+	word-break: break-all;
 }
 
 .list_text:hover {
@@ -267,7 +268,7 @@
 	border-radius: 12px;
 	background: #fff;
 	display: inline-block;
-	width: 210px;
+	width: 170px;
 	padding: 8px 0;
 	z-index: 2000;
 	overflow-y: auto;
@@ -280,7 +281,7 @@
 	font-size: 13px;
 	line-height: 20px;
 	color: #333;
-	padding: 6px 16px;
+	padding: 6px 10px;
 	cursor: pointer;
 	display: flex;
 	align-items: center;
@@ -293,7 +294,7 @@
 
 .dropdown_empty {
 	color: #6b6969;
-	padding: 10px 16px;
+	padding: 10px 10px;
 	cursor: default;
 }
 
@@ -310,7 +311,7 @@
 
 .dropdown_itemText {
 	text-overflow: ellipsis;
-	width: 170px;
+	width: 135px;
 	white-space: nowrap;
 	overflow: hidden;
 }

@@ -68,7 +68,7 @@ export class Settings extends PureComponent<ISettingsProps> {
             settings_button: true,
             settings_buttonDisable: !zoomOutEnable
           })}
-          title="Удалить"
+          title="Отдалить"
           onClick={this.handleZoomOut}
         >
           <div className="settings_buttonIcon">

@@ -11,7 +11,7 @@ export interface IToolbarItem {
 
 const toolbarItems: IToolbarItem[] = [
   {
-    text: 'Добавить элемент',
+    text: 'Добавить узел',
     icon: <div className="icon_plus" />,
     id: 'add'
   },
@@ -21,7 +21,7 @@ const toolbarItems: IToolbarItem[] = [
   //   id: 'addImage'
   // },
   {
-    text: 'Удаалить элемент',
+    text: 'Удалить узел',
     icon: <div className="icon_trash" />,
     id: 'delete'
   },

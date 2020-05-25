@@ -88,7 +88,6 @@ export class MindMapComp extends PureComponent<IMindMapProps, IMindMapState> {
       jm.show(this.props.allData);
 
       this.setState({ jm });
-      console.log('JN = ', jm);
     }
   }
 
@@ -96,6 +95,7 @@ export class MindMapComp extends PureComponent<IMindMapProps, IMindMapState> {
     if (!eqProps('data', this.props.allData, prevProps.allData)) {
       console.log('COMPONENT DID UPDATE');
       this.state.jm.show(this.props.allData);
+      this.setState({ selectedNode: null });
     }
   }
 

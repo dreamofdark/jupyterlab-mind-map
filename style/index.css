@@ -61,7 +61,7 @@
 	word-break: break-all;
 }
 
-.lisText:hover {
+.listText:hover {
 	background-color: #f5f6f7;
 	border-radius: 8px;
 }
